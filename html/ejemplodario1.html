@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <strong>Hola Mundo</strong>
+    <em>Bienvenidos</em>
+    <mark>Sarasa</mark>
+    <cite>Una vez en el bosque...</cite>
+    <p>La <abbr title="Asociacion de Fútbol Argentino">AFA</abbr> votó mal de nuevo</p>
+    <form action="gracias.html" method="GET">
+      <label for="nombre">Nombre:</label>
+      <input id="nombre" type="text" name="nombre1" value="Dario">
+      <br><br>
+      <label for="apellido">Apellido:</label>
+      <input id="apellido" type="text" name="apellido2" placeholder="Complete su apellido..." required>
+
+      <br><br>
+      <label for="password">Contraseña</label>
+      <input type="password" name="password" id="password" value="">
+
+      <br><br>
+
+      <label for="email">E-mail</label>
+      <input type="email" name="email" id="email" value="">
+      <br><br>
+      Sexo:
+      <input type="radio" name="sexo" value="M">M
+      <input type="radio" name="sexo" value="F">F
+      <input type="radio" name="sexo" value="No responde">No responde
+      <br><br>
+      Hobbies:
+      <input type="checkbox" name="hobbies" value="">Futbol
+      <input type="checkbox" name="hobbies" value="">Hockey
+      <input type="checkbox" name="hobbies" value="">Sarasa
+
+      <br><br>
+
+      <label for="comentarios">Comentarios:</label>
+      <textarea name="comentarios" rows="6" cols="40">
+      </textarea>
+      <br><br>
+      Pais:
+      <select id="pais" class="" name="pais">
+        <option value="AR">Argentina</option>
+        <option value="CO">Colombia</option>
+        <option value="MX">Mexico</option>
+      </select>
+      <input type="hidden" name="pepito" value="jose">
+      <br><br>
+      <button type="submit">
+        <img src="https://www.datoweb.com/img/post/3_28_enviar-formulario-javascript.png" alt="" width="100">
+      </button>
+      <button type="reset">
+        Reiniciar
+      </button>
+    </form>
+  </body>
+</html>

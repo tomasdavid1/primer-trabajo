@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+    <meta charset="utf-8">
+    <title>Formulario de Consultas</title>
+
+
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+<body>
+
+
+
+
+<form action="Gracias.html" method = "get">
+
+
+<label for="nombre"> Nombre: </label>
+<input type="text" id= nombre name=Nombre  placeholder="José">
+<br><br>
+
+<label for="apellido"> Apellido: </label>
+<input type="text" id= text name=apellido placeholder="Pérez" >
+
+<br><br>
+
+<label for="correo"> E-mail </label>
+<input type="email" id= email name="email" placeholder="ejemplo@outlook.com" >
+
+<label for="contraseña"> Contraseña </label>
+<input type="password" id=contraseña name="contraseña" >
+
+
+Sexo:
+<input type="radio" name="sexo" value="M"> M
+<input type="radio" name="sexo" value="F"> F
+<input type="radio" name="sexo" value="No responde">No responde
+
+
+<br><br>
+
+Pais:
+
+<select name="Pais" id="Pais" required> País:
+
+
+  <option value=""> </option>
+  <option value="AR"> Argentina</option>
+  <option value="CHI"> Chile</option>
+  <option value="URU"> Uruguay</option>
+  <option value="PAR"> Paraguay</option>
+
+
+
+
+</select>
+
+<br><br>
+
+Asunto:
+<input type="checkbox" name="Facturación" value="M"> Facturacion
+<input type="checkbox" name="Devolución del producto" > Devolución del producto
+<input type="checkbox" name="Problemas con el envío" > Problemas con el envío
+<input type="checkbox" name="Reclamos generales" > Reclamos generales
+<br><br>
+<label for="Otros"> Otros:  </label> <br> <textarea name="Otros" id=otros rows="4" cols="20"></textarea>
+
+<br><br>
+
+<label for="comentarios">Comentarios:</label> <br>
+<textarea name="Comentarios" id="comentarios" cols="20" rows="10"></textarea>
+
+<br><br>
+
+<button type="submit">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSarb_647UEuw2Hpxsx85lQNM5h0IIY7iUXnD4cBJ4zaKlHNt27" alt="10"width="40">
+
+
+</button>
+
+<button type="reset" name="button">Reiniciar</button>
+
+
+</form>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+body {
+  font-family: 'Times', sans-serif;
+
+background-image: url(https://image.freepik.com/free-vector/white-cubes-pattern_1053-248.jpg);
+
+
+}
+
+label{
+
+font-weight: 400;
+
+}
+
+input{ background-color: rgba(255, 0, 0, 0.5);
+
+
+}
+
+input:hover{
+
+background-color: rgba(255, 155,255, 1);
+
+
+
+}
